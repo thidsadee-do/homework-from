@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Homework7 : Form</title>
+</head>
+<body>
+    <h1 class="form-h">Homework7 : Form</h1>
+    <hr>
+    <form class="login-form">
+    <label for="username">Username : </label>
+    <input type="text" id="username">
+    <label id="userlabel"></label>
+    <label for="password">Password : </label>
+    <input type="text" id="password">
+    <label id="passlabel"></label>
+    <select name="role" id="role" class="role">
+        <option disabled selected>Select Role</option>
+        <option value="buyer">Buyer</option>
+        <option value="seller">Seller</option>
+        <option value="visitor">Visitor</option>
+    </select>
+    <label id="selectlabel"></label>
+    <input type="submit" value="Login" class="btn-login">
+</form>
+
+    <script src="./main.js"></script>
+</body>
+</html>
